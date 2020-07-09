@@ -1,5 +1,5 @@
 # Automations
-Alguns para automatizar tarefas diárias.
+Alguns scripts para automatizar tarefas diárias.
 
 ## Shell
 **calc** _fazer cálculos rápidos_
