@@ -1,6 +1,7 @@
 # Auto Shell
-Alguns scripts SH para automatizar tarefas diárias no CLI da minha distro linux
+Alguns para automatizar tarefas diárias.
 
+## Shell
 **calc** _fazer cálculos rápidos_
 
 **netspeed** _ver a velocidade de internet usando a api do site speedtest.com_
