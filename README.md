@@ -1,4 +1,4 @@
-# Auto Shell
+# Automations
 Alguns para automatizar tarefas diárias.
 
 ## Shell
