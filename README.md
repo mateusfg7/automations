@@ -12,6 +12,8 @@ Alguns scripts para automatizar tarefas diárias.
 
 **ytdown** _alias para o comando `youtube-dl` que faz dowload de videos no youtube_
 
+**All-To-Pascal** _rename all the files/folders to pascal pattern (first letter to uppercase)_
+
 ## Powershell
 
 **makeFolder.ps1** _criar 11 pastas com o prefixo 'cenas' seguido de um _ e o indice. e.g: cena_1, cena_2, cena_3 ..._
