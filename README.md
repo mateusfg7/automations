@@ -14,6 +14,8 @@ Alguns scripts para automatizar tarefas diárias.
 
 **All-To-Pascal** _renomeia todos os arquivos/pastas para o padrão Pascal (primeira letra em maiúsculo)_
 
+**compress** _comprime todos os arquivos em uma determinada pasta usando 7z_
+
 ## Powershell
 
 **makeFolder.ps1** _criar 11 pastas com o prefixo 'cenas' seguido de um _ e o indice. e.g: cena_1, cena_2, cena_3 ..._
