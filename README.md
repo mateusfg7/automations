@@ -12,7 +12,7 @@ Alguns scripts para automatizar tarefas diárias.
 
 **ytdown** _alias para o comando `youtube-dl` que faz dowload de videos no youtube_
 
-**All-To-Pascal** _rename all the files/folders to pascal pattern (first letter to uppercase)_
+**All-To-Pascal** _renomeia todos os arquivos/pastas para o padrão Pascal (primeira letra em maiúsculo)_
 
 ## Powershell
 
