@@ -16,6 +16,12 @@ Alguns scripts para automatizar tarefas diárias.
 
 **compress** _comprime todos os arquivos em uma determinada pasta usando 7z_
 
+### Docker
+#### Portainer
+
+**start_new_portainer_server** _starts a new docker server of the portainer-ce_
+**update_existing_portainer_server** _update a running docker server of the portainer-ce_
+
 ## Powershell
 
 **makeFolder.ps1** _criar 11 pastas com o prefixo 'cenas' seguido de um _ e o indice. e.g: cena_1, cena_2, cena_3 ..._
