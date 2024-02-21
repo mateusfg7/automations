@@ -1,0 +1,58 @@
+<!--
+Formulário pra gerar uma mensagem para ser registrado no histório do sistema da empresa
+Por Mateus Felipe Gonçalves <contato@mateusf.com>
+Em Instituto Mix de Profissões - Pará de Minas
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cadastro</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+	<style type="text/css">
+		body {
+			padding: 2rem;
+		}
+	</style>
+</head>
+<body>
+
+<div class="m-auto flex flex-col gap-3 w-64">
+	<label for="curso">Curso</label>
+	<input type="text" id="curso" class="border border-neutral-600 rounded-lg p-2 px-3">
+
+	<label for="pagina">Página</label>
+	<input type="number" id="pagina" class="border border-neutral-600 rounded-lg p-2 px-3">
+
+	<label for="linha">Linha</label>
+	<input type="number" id="linha" class="border border-neutral-600 rounded-lg p-2 px-3">
+
+	<button onclick="gerar()" class="bg-neutral-300 hover:bg-neutral-200 p-1 rounded-lg my-5">GERAR</button>
+
+	<span id="mensagem">Mensagem...</span>
+</div>
+
+
+
+<script>
+	function gerar() {
+		const curso = document.getElementById("curso").value
+		const pagina = document.getElementById("pagina").value
+		const linha = document.getElementById("linha")
+
+		const mensagem = document.getElementById("mensagem")
+
+		const text = `Certificado de ${curso} registrado no livro 001, na página ${pagina}, linha ${linha.value}.`
+
+		mensagem.textContent = text
+
+		navigator.clipboard.writeText(text)
+		
+		linha.value = Number(linha.value) + 1
+	}
+</script>
+
+</body>
+</html>
